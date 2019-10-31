@@ -13,13 +13,11 @@ from PIL import Image
 
 from skimage import feature, color, data
 from sklearn.preprocessing import LabelEncoder
-# The training data set is in the /Users/macos/Documents/Intel Image Classification/seg_train
+
 trn_img_path = 'C:\\Users\\hp\\.spyder-py3\\Dataset\\train\\'
 
-# The testing data set is in the /Users/macos/Documents/Intel Image Classification/seg_test
 tst_img_path = 'C:\\Users\\hp\\.spyder-py3\\Dataset\\test\\'
 
-# Lets create 2 set of arrays for train & testing data's. One for to store the Image data and anther one for label details
 X_train =[] # Stores the training image hog data
 label_train = [] # Stores the training image label
 
